@@ -352,7 +352,7 @@ a:active {
 
 .home {
   display: grid;
-  grid-template-rows: 10% 10% 25% auto;
+  grid-template-rows: 10% 10% 10% auto;
   text-align: center;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
@@ -399,7 +399,8 @@ a:active {
   bottom: 0;
   left: 34%;
   grid-row: 3 / 4;
-  height: 100%;
+  height: 70%;
+  bottom: -30%;
   width: 10%;
   position: absolute;
   background-image: url("../images/facebook.png");
@@ -412,7 +413,8 @@ a:active {
   bottom: 0;
   position: absolute;
   grid-row: 3 / 4;
-  height: 100%;
+  height: 70%;
+  bottom: -30%;
   width: 10%;
   left: 54%;
   background-image: url("../images/linkedin.png");
@@ -425,7 +427,8 @@ a:active {
   bottom: 0;
   position: absolute;
   grid-row: 3 / 4;
-  height: 100%;
+  height: 70%;
+  bottom: -30%;
   width: 10%;
   left: 44%;
   background-image: url("../images/medium.png");
