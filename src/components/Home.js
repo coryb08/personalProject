@@ -15,13 +15,18 @@ const Home = props => {
       <br />
 
       <div className="message">
-        My website is in the works. <br />In the mean time here's some links to
-        social media.
+        My website is in the works. <br />In the mean time here are some links.
       </div>
       <a
         target="_blank"
         href="https://www.facebook.com/corydbaker"
         className="facebook"
+      />
+
+      <a
+        target="_blank"
+        href="https://medium.com/@corybaker_54290"
+        className="medium"
       />
 
       <a
