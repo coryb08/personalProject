@@ -395,6 +395,12 @@ a:active {
   background-image: url("../images/brush.png");
 } */
 
+.links {
+  grid-row: 3 / 4;
+  left: 1%;
+  position: relative;
+}
+
 .facebook {
   bottom: 0;
   left: 34%;
@@ -434,7 +440,35 @@ a:active {
   background-image: url("../images/medium.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 69%;
+  background-size: 68%;
+}
+
+.email {
+  bottom: 0;
+  position: absolute;
+  grid-row: 3 / 4;
+  height: 70%;
+  bottom: -31%;
+  width: 9%;
+  left: 24%;
+  background-image: url("../images/email.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 88% 100%;
+}
+
+.stackOverflow {
+  bottom: 0;
+  position: absolute;
+  grid-row: 3 / 4;
+  height: 70%;
+  bottom: -30.5%;
+  width: 8.5%;
+  left: 65%;
+  background-image: url("../images/stackoverflow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 87% 97%;
 }
 
 textarea,
