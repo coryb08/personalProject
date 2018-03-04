@@ -26,7 +26,7 @@ const Home = props => {
 
         <a
           target="_blank"
-          href="https://medium.com/@corybaker_54290"
+          href="https://medium.com/@coryb08"
           className="medium"
         />
 
